@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Storytelling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Storytelling</h1>
+    <div id="story">
+      <p id="storyText">Make your selections to create a story.</p>
+    </div>
+    <div id="buttons">
+      <button id="button1" onclick="cycleWords('button1', 'story1')">Choose</button>
+      <button id="button2" onclick="cycleWords('button2', 'story1')">Choose</button>
+      <button id="button3" onclick="cycleWords('button3', 'story1')">Choose</button>
+      <button id="button4" onclick="cycleWords('button4', 'story1')">Choose</button>
+      <button id="button5" onclick="cycleWords('button5', 'story1')">Choose</button>
+      <button id="showStoryButton" onclick="showStory()">Show Story</button>
+      <button id="randomStoryButton" onclick="generateRandomStory('story1')">Random Story</button>
+      <button id="resetButton" onclick="resetStory()">Reset</button>
+    </div>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+</html>
